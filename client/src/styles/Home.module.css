@@ -1,0 +1,93 @@
+.content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.headings {
+    color: #e9eaed;
+    font-size: 4vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ 
+}   
+
+.inputs input:focus {
+    outline: none;
+
+}
+
+.inputs input {
+
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+   
+    border: 2px solid #e9eaed;
+    background-color: transparent;
+    color: #e9eaed;
+    padding: 5px;
+    font-size: medium;
+
+}
+
+.inputs input::placeholder {
+    color: #e9eaed;
+}
+
+.majors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #9ea8c3;
+    gap: 50px;
+}
+
+.enter-chat {
+    text-align: center;
+
+}
+
+.enter-chat {
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+    color: #9ea8c3;
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+
+.eachMajor {
+    cursor: pointer
+}
+
+.majors h2 {
+    cursor: pointer;
+}

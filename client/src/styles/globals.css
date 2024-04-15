@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen:wght@700&family=Poppins:wght@300&family=Raleway&family=Silkscreen&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  font-family: 'Poppins', 'monospace', 'sans-serif';
+}

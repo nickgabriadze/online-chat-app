@@ -1,0 +1,149 @@
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.wrapper-div > div {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+}
+
+.messagingBox {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chatBox {
+    width: 70vw;
+    height: 55vh;
+    border-radius: 10px;
+    border: 1px solid indigo;
+    padding: 10px;
+    font-size: small;
+    overflow-y: scroll;
+
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.new-send {
+    border: 1px solid indigo;
+    word-wrap: break-word;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+.chatBox {
+    padding: 40px;
+}
+.new-send:hover {
+    background-color: rgb(96, 50, 129);
+    cursor: pointer;
+}
+
+.textareaStyle {
+    outline: none;
+
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid indigo;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    scroll-behavior: smooth;
+
+}
+
+.chatBox::-webkit-scrollbar {
+    width: 4px;
+    height: min-content;
+    background-color: #000000;
+}
+
+.chatBox::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+
+    border-right: 4x solid indigo;
+    background-clip: padding-box;
+    background-color: indigo;
+}
+
+
+.textareaStyle::-webkit-scrollbar {
+    width: 4px;
+    height: min-content;
+    background-color: #000000;
+}
+
+.textareaStyle::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border-right: 4x solid indigo;
+    background-clip: padding-box;
+    background-color: indigo;
+}
+
+
+.block{
+    display: flex;
+    flex-direction: column;
+    margin-right: -30px;
+}
+
+.meta{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    color: rgb(182, 174, 195);  
+    margin-top: -20px;
+}
+
+
+.msg-me{
+    outline: 1px solid indigo;
+    background-color: rgb(44, 34, 53);
+    background-color: rgb(5, 5, 5);
+    padding: 5px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    word-break:keep-all;
+    max-width: 20vw;
+    font-size: larger;
+    margin-top: -5px;
+}
+.msg-from{
+    outline: 1px solid rgb(155, 56, 225);
+    background-color: rgb(44, 34, 53);
+    padding: 5px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    word-break:keep-all;
+    max-width: 20vw;
+    font-size: larger;
+    margin-top: -5px;
+}
+
